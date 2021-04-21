@@ -95,7 +95,7 @@ cfg.MODEL.WEIGHTS = os.path.join(cfg.OUTPUT_DIR, "model_final.pth")  # path to t
 predictor = DefaultPredictor(cfg)
 ```
 
-## 8. Test with test another dataset
+## 8. Test with test dataset
 
 <img src="https://github.com/J-TKim/Face_Detection/blob/main/images/test/test1.png?raw=true">
 <img src="https://github.com/J-TKim/Face_Detection/blob/main/images/test/test2.png?raw=true">
