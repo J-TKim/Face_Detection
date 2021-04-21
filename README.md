@@ -1,5 +1,9 @@
 # Face Detection with Detectron2
 
+[Face Detection REST API](https://github.com/J-TKim/Face_Detection/blob/main/REST_API/README.md)
+
+[Face Detection Infererce](https://github.com/J-TKim/Face_Detection/tree/main/inference#readme)
+
 ## 1. Install detectron2
 [detectron2 Installation](https://detectron2.readthedocs.io/en/latest/tutorials/install.html?highlight=cuda)
 
