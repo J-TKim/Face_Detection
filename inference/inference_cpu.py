@@ -33,7 +33,7 @@ cfg.MODEL.ROI_HEADS.NUM_CLASSES = 1  # only has one class (face)
 cfg.MODEL.DEVICE = 'cpu'  # if you want to inference with gpu then delete this line
 cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.8
 
-cfg.OUTPUT_DIR = './models/faster_rcnn_r101_fpn/'  # set output data path
+cfg.OUTPUT_DIR = '../REST_API/models/faster_rcnn_r101_fpn/'  # set output data path
 # path to the model we just trained
 cfg.MODEL.WEIGHTS = os.path.join(cfg.OUTPUT_DIR, "model_final.pth")
 predictor = DefaultPredictor(cfg)
